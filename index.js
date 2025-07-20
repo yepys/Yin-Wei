@@ -23,6 +23,6 @@ const filePath = path.join(__dirname, 'index.html'); // 使用英文逗号
 });
 
 const PORT = 3000;
-server。listen(PORT, () => {
+server.listen(PORT， () => {
     console.log(`服务器运行在端口 ${PORT}`);
 });    
